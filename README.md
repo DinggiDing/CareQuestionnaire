@@ -15,11 +15,11 @@ The frontend Typescript server is in `vrfa_service/`
 
 # Developer Setup
 
-1. First, clone repository to computer use command: git clone https://github.com/dihim/homehealth_IVA_web.git
+1. First, clone repository to computer use command: gh repo clone StanfordHCI/CareQuestionnaire
 
-2. cd into repo: cd homehealth_IVA_web/vrfa_service and Run: npm install
+2. cd into repo: cd CareQuestionnaire/vrfa_service and Run: npm install
    
-4. cd into homehealth_IVA_web: cd ..
+4. cd into CareQuestionnaire: cd ..
 
 5. Create a developer branch for your github command: git checkout -b dev_{githubusername}
 
@@ -46,10 +46,6 @@ The frontend Typescript server is in `vrfa_service/`
 
 13. Server should be running at http://localhost:3000/start
 
-14. You can use the db by running `export GOOGLE_APPLICATION_CREDENTIALS="<your_local_path>/homehealth_IVA_web/genie_service/functions/autovrfa/database/credentials.json"`. Note if you are outside the organization, you'll need to set up your own Firebase db. 
+14. You can use the db by running `export GOOGLE_APPLICATION_CREDENTIALS="<your_local_path>/CareQuestionnaire/genie_service/functions/autovrfa/database/credentials.json"`. Note if you are outside the organization, you'll need to set up your own Firebase db. 
 
 Note: if you just want to run autovrfa (the backend), you can interact with it via the terminal by running `python -m autovrfa.main` from inside genie_service/functions
-
-# Running tests
-1. Go into functions directory `cd genie_service/functions`
-2. Run `python -m unittest autovrfa.tests.report.test_report.TestReportClient`
