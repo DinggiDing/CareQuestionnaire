@@ -6,9 +6,9 @@ from autovrfa.survey_state import SurveyState
 
 class DatabaseClient():
     def __init__(self, user_id: str = None):
-        # Try putting this in .env?
         creds = credentials.Certificate('autovrfa/database/credentials.json')
-        self.db = firestore.AsyncClient(project='homehealth-iva')
+        self.db = firestore.AsyncClient(
+            project='<project_id>', credentials=creds)
         self.user_id = user_id
 
     @property
