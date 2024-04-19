@@ -1,0 +1,32 @@
+{
+  "adlsQuestions": [
+    { 
+      "question": "Bathing",
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"]
+    },
+    { 
+      "question": "How about dressing?",
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"]
+    },
+    { 
+      "question": "How about grooming?",
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"]
+    },
+    { 
+      "question": "How about feeding?",
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"]
+    },
+    { 
+      "question": "How about walking INSIDE the home?",
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"]
+    },
+    { 
+      "question": "How about walking OUTSIDE the home?",
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"]
+    },
+    { 
+      "question": "How about bladder and bowel control?",
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"]
+    }
+  ]
+}

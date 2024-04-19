@@ -1,0 +1,345 @@
+{
+  "sections": [
+    {
+      "sectionId": "adls",
+      "firstStatements": "Alright lets get started. How much have the following activities been limited by your health condition?" ,
+      "answerChoices": ["Not limited", "Limited a little", "Limited a lot"],
+      "answerType": "enum",
+      "questions": [
+        { 
+          "displayQuestion": "Bathing",
+          "spokenQuestion": "The first activity is bathing",
+          "promptQuestion": "How much  your bathing been limited by your health condition?",
+          "node": "bathing"
+        },
+        { 
+          "displayQuestion": "Dressing",
+          "spokenQuestion": "How about dressing?",
+          "promptQuestion": "How much has your dressing been limited by your health condition?",
+          "node": "dressing"
+        },
+        {  
+          "displayQuestion": "Grooming",
+          "spokenQuestion": "How about grooming?",
+          "promptQuestion": "How much has your grooming been limited by your health condition?",
+          "node": "grooming"
+        },
+        { 
+          "displayQuestion": "Feeding",
+          "spokenQuestion": "How about feeding?",
+          "promptQuestion": "How much has your feeding been limited by your health condition?",
+          "node": "feeding"
+        },
+        { 
+          "displayQuestion": "Walking inside the home",
+          "spokenQuestion": "How about walking inside the home?",
+          "promptQuestion": "How much has walking inside the home been limited by your health condition?",
+          "node": "walkingInsideHome"
+        },
+        { 
+          "displayQuestion": "Walking outside the home",
+          "spokenQuestion": "How about walking outside the home?",
+          "promptQuestion": "How much has walking outside the home been limited by your health condition?",
+          "node": "walkingOutsideHome"
+        },
+        { 
+          "spokenQuestion": "How about bladder and bowel control?",
+          "displayQuestion": "Bladder and bowel control",
+          "promptQuestion": "How much has bladder and bowel control been limited by your health condition?",
+          "node": "bladderBowlControl"
+        }
+      ]
+    },
+    {
+      "sectionId": "kps",
+      "questions": [
+        { 
+          "displayQuestion": "On a scale from 30% (I require continuous nursing care) to 100% (I have no complaints about my functional capacity), tell me a percentage that best describes you at this time.",
+          "spokenQuestion": "On a scale from 30% (I require continuous nursing care) to 100% (I have no complaints about my functional capacity), tell me a percentage that best describes you at this time.",
+          "promptQuestion": "On a scale from 30% (I require continuous nursing care) to 100% (I have no complaints about my functional capacity), tell me a percentage that best describes you at this time.",
+          "answerType": "percentage",
+          "node": "kps"
+        }
+      ]
+    },  
+  {
+    "sectionId": "iadls",
+    "firstStatements": "I'm going to ask you about a few activities, for each activity you can say without help, with some help, or unable to do so" ,
+    "answerChoices": ["Without help", "With some help", "Unable to do so"],
+    "answerType": "enum",
+    "questions": [
+      { 
+        "displayQuestion": "Telephone",
+        "spokenQuestion": "Are you able to use the telephone?",
+        "promptQuestion": "How independently can you use the telephone?",
+        "node": "telephone"
+      },
+      { 
+        "displayQuestion": "Do laundry",
+        "spokenQuestion": "What about doing laundry?",
+        "promptQuestion": "How independently can you do laundry?",
+        "node": "laundry"
+      },
+      {  
+        "displayQuestion": "Go shopping?",
+        "spokenQuestion": "What about going shopping?",
+        "promptQuestion": "How independently can you go shopping?",
+        "node": "shopping"
+      },
+      { 
+        "displayQuestion": "Prepare meals?",
+        "spokenQuestion": "How about preparing meals?",
+        "promptQuestion": "How independently can you prepare meals?",
+        "node": "meals"
+      },
+      { 
+        "displayQuestion": "Do housework?",
+        "spokenQuestion": "How about doing housework?",
+        "promptQuestion": "How independently can you do housework?",
+        "node": "housework"
+      },
+      { 
+        "displayQuestion": "Handle your own medication?",
+        "spokenQuestion": "What about handling your own medication?",
+        "promptQuestion": "How independently can handle your own medication?",
+        "node": "medication"
+      },
+      { 
+        "displayQuestion": "Handle your own money?",
+        "spokenQuestion": "How about handling your own money?",
+        "promptQuestion": "How independently can you handle your own money?",
+        "node": "money"
+      },
+      { 
+        "displayQuestion": "Visit your doctor?",
+        "spokenQuestion": "Last one is: visiting your doctor",
+        "promptQuestion": "How independently can you visit your doctor?",
+        "node": "doctor"
+      }
+    ]
+  },
+  {
+    "sectionId": "social",
+    "firstStatements": "Alright, for the following questions you can say All the time, most of the time, some of the time, almost never, or never" ,
+    "answerChoices": ["All the time", "Most of the time",	"Some of the time",	"Almost never", "Never"],
+    "answerType": "enum",
+    "questions": [
+      { 
+        "displayQuestion": "How often do you have someone to help you with daily chores if you were sick?",
+        "spokenQuestion": "How often do you have someone to help you with daily chores if you were sick?",
+        "promptQuestion": "How often do you have someone to help you with daily chores if you were sick?",
+        "node": "chores"
+      },
+      { 
+        "displayQuestion": "How often do you have someone to turn to for suggestions about how to deal with a personal problem?",
+        "spokenQuestion": "How often do you have someone to turn to for suggestions about how to deal with a personal problem?",
+        "promptQuestion": "How often do you have someone to turn to for suggestions about how to deal with a personal problem?",
+        "node": "personalProblems"
+      },
+      {  
+        "displayQuestion": "How often do you have someone to do something enjoyable with?",
+        "spokenQuestion": "And how often do you have someone to do something enjoyable with?",
+        "promptQuestion": "How often do you have someone to make you feel wanted?",
+        "node": "enjoyable"
+      },
+      { 
+        "displayQuestion": "How often do you have someone to make you feel wanted?",
+        "spokenQuestion": "And how often do you have someone to make you feel loved or wanted?",
+        "promptQuestion": "How often do you have someone to make you feel wanted?",
+        "node": "wanted"
+      },
+      { 
+        "displayQuestion": "How much of the time has your physical health or emotional problems interfered with your social activities?",
+        "spokenQuestion": "During the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities (like visiting friends or relatives)?",
+        "promptQuestion": "How often has your physical health or emotional problems interfered with your social activities?",
+        "node": "interfearSocial"
+      }
+    ]
+  },
+  {
+      "sectionId": "socialActivity",
+      "firstStatements": "For the following questions you can say much less, somewhat less, about the same, somewhat more, or much more",
+      "answerChoices": ["Much less",	"Somewhat less",	"About the same",	"Somewhat more", "Much more"],
+      "answerType": "enum",
+      "questions": [
+        { 
+          "displayQuestion": "Has your social activity during the past six months decreased, stayed the same, or increased because of a change in your physical or emotional condition?",
+          "spokenQuestion": "Compared to your usual level of social activity, has your social activity during the past six months decreased, stayed the same, or increased because of a change in your physical or emotional condition?",
+          "promptQuestion": "Compared to your usual level of social activity, has your social activity during the past six months decreased, stayed the same, or increased because of a change in your physical or emotional condition?",
+          "node": "changedInSocial"
+        },
+        { 
+          "displayQuestion": "Are your social activities more or less limited because of your physical health or emotional problems?",
+          "spokenQuestion": "Compared to others your age, are your social activities more or less limited because of your physical health or emotional problems?",
+          "promptQuestion": "Compared to others your age, are your social activities more or less limited because of your physical health or emotional problems?",
+          "node": "socialComparison"
+        }
+    ]
+  },
+  {
+    "sectionId": "falls",
+    "answerType": "enum",
+    "questions": [
+      { 
+        "displayQuestion": "Okay! Have you ever fallen (lost your balance, tripped, or dropped to the ground without control)?",
+        "spokenQuestion": "Have you ever fallen? Say yes if you have ever lost your balance, tripped, or dropped to the ground without control?",
+        "promptQuestion": "Have you ever fallen (lost your balance, tripped, or dropped to the ground without control)?",
+        "answerChoices": ["Yes", "No"],
+        "node": "everFall"
+      },
+      { 
+        "displayQuestion": "When did you last fall?",
+        "spokenQuestion": "When did you last fall? You can say in the last week in the last month, in the last 6 months, in the last year, more than 1 year ago",
+        "promptQuestion": "When did you last fall?",
+        "answerChoices": ["In the last week", "In the last month", "In the last 6 months", "In the last year", "More than 1 year ago"],
+        "requiredAnswers": "falls-everFall-Yes",
+        "node": "lastFall"
+      },
+      { 
+        "displayQuestion": "Where did you last fall?",
+        "spokenQuestion": "Where did you last fall? You can say at home or outside the home",
+        "promptQuestion": "Where did you last fall?",
+        "answerChoices": ["At home", "Outside the home"],
+        "requiredAnswers":    "falls-everFall-Yes",
+        "node": "whereFall"
+      }
+    ]
+  },
+  {
+    "sectionId": "assistiveDevices",
+    "firstStatements": "For the following questions you can say yes or no",
+    "answerChoices": ["Yes", "No"],
+    "answerType": "enum",
+    "questions": [
+      { 
+        "displayQuestion": "Do you use a cane?",
+        "spokenQuestion": "Do you use a cane?",
+        "promptQuestion": "Do you use a cane?",
+        "node": "cane"
+      },
+      { 
+        "displayQuestion": "Do you use a walker?",
+        "spokenQuestion": "How about a walker?",
+        "promptQuestion": "Do you use a walker?",
+        "node": "walker"
+      },
+      { 
+        "displayQuestion": "Do you use a crutch?",
+        "spokenQuestion": "How about a crutch?",
+        "promptQuestion": "Do you use a crutch?",
+        "node": "crutches"
+      },
+      { 
+        "displayQuestion": "Do you use a wheelchair?",
+        "spokenQuestion": "How about a wheelchair?",
+        "promptQuestion": "Do you use a wheelchair?",
+        "node": "wheelchair"
+      },
+      { 
+        "displayQuestion": "Do you use a brace?",
+        "spokenQuestion": "How about a brace?",
+        "promptQuestion": "Do you use a brace?",
+        "node": "brace"
+      },
+      { 
+        "displayQuestion": "Do you use a prothesis?",
+        "spokenQuestion": "What about a prothesis, such as an artificial leg or arm?",
+        "promptQuestion": "Do you use a prothesis?",
+        "node": "prothesis"
+      },
+      { 
+        "displayQuestion": "Do you use a hearing aid",
+        "spokenQuestion": "Do you use a hearing aid?",
+        "promptQuestion": "Do you use a hearing aid?",
+        "node": "hearingAid"
+      },
+      { 
+        "displayQuestion": "Do you wear glasses?",
+        "spokenQuestion": "Do you wear glasses?",
+        "promptQuestion": "Do you use glasses?",
+        "node": "glasses"
+      }
+    ]
+  },
+  {
+    "sectionId": "weight",
+    "answerType": "enum",
+    "answerChoices": ["No change, or weight gain", "I've lost weight but less than 5 pounds", "I've lost about 5 - 10 pounds", "I've lost more than 10 lbs, but less than 20 pounds", "I've lost 20 pounds or more", "I am not sure how my weight has changed"],
+    "questions": [
+      { 
+        "displayQuestion": "In the past 6 months, how much has your weight changed?",
+        "spokenQuestion": "In the past 6 months, how much has your weight changed? You can say no change, or weight gain, I've lost weight but less than 5 pounds, I've lost about 5 - 10 pounds, I've lost more than 10 lbs, but less than 20 pounds, I've lost 20 pounds or more, I am not sure how my weight has changed",
+        "promptQuestion": "How much has your weight changed in the past 6 months?.",
+        "node": "weight"
+      }
+    ]
+  },
+  {
+    "sectionId": "remaining",
+    "answerType": "number",
+    "questions": [
+      { 
+        "displayQuestion": "How much distress regarding emotional concerns have you been experiencing in the past 2 weeks including today? You can say a number from zero, meaning no distress, through 10, meaning extreme distress.",
+        "spokenQuestion": "How much distress regarding emotional concerns have you been experiencing in the past 2 weeks including today? You can say a number from zero, meaning no distress, through 10, meaning extreme distress.",
+        "promptQuestion": "How much distress regarding emotional concerns have you been experiencing in the past 2 weeks including today? You can say a number from zero, meaning no distress, through 10, meaning extreme distress.",
+        "node": "distressRange"
+      }
+    ]
+  },
+  {
+    "sectionId": "satisfaction",
+    "firstStatements": "For the following questions you can say yes or no",
+    "answerType": "enum",
+    "answerChoices": ["Yes", "No"],
+    "questions": [
+      { 
+        "displayQuestion": "Are you basically satisfied with your life?",
+        "spokenQuestion": "Are you basically satisfied with your life?",
+        "promptQuestion": "Are you basically satisfied with your life?",
+        "node": "happyGeneral"
+      },
+      { 
+        "displayQuestion": "Have you dropped many of your activities and interests?",
+        "spokenQuestion": "Have you dropped many of your activities and interests?",
+        "promptQuestion": "Have you dropped many of your activities and interests?",
+        "node": "droppedInterests"
+      },
+      { 
+        "displayQuestion": "Do you feel happy most of the time?",
+        "spokenQuestion": "Do you feel happy most of the time?",
+        "promptQuestion": "Do you feel happy most of the time?",
+        "node": "happyMostTime"
+      },
+      { 
+        "displayQuestion": "Do you prefer to stay at home, rather than going out and doing new things?",
+        "spokenQuestion": "Do you prefer to stay at home, rather than going out and doing new things?",
+        "promptQuestion": "Do you prefer to stay at home, rather than going out and doing new things?",
+        "node": "stayHome"
+      },
+      { 
+        "displayQuestion": "Are you taking any prescribed medications?",
+        "spokenQuestion": "Are you taking any prescribed medications?",
+        "promptQuestion": "Are you taking any prescribed medications?",
+        "node": "medications"
+      }
+    ]
+  },
+  {
+    "sectionId": "assessment",
+    "answerType": "enum",
+    "answerChoices": ["Myself", "Myself with assistance", "Caregiver"],
+    "questions": [
+      { 
+        "displayQuestion": "Who completed this assessment?",
+        "spokenQuestion": "Who completed this assessment? You can say: myself, myself with assistance, caregiver",
+        "promptQuestion": "Who completed this assessment?",
+        "node": "assessment"
+      }
+    ]
+  }
+  ],
+  "end": {
+    "displayQuestion": "Your questionnaire has been successfully completed.",
+    "spokenQuestion": "Your questionnaire has been successfully completed. I will send your responses to your care taker. You can click on the button to view responses and print it out. If you have any questions, reach out to your doctor's office. Have a good day!"
+  }
+}

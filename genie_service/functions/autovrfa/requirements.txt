@@ -1,0 +1,5 @@
+openai
+langchain
+csv
+os
+google-cloud-firestore

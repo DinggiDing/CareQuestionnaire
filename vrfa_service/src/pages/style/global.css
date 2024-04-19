@@ -1,0 +1,36 @@
+/** Variables **/
+:root {
+    --light-blue: #62A1F4;
+}
+
+/* Layout */
+html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body, #root {
+    display: flex;
+    flex-grow: 1;
+}
+
+.white-background {
+    background-color: white;
+}
+
+/* Buttons */
+
+Button.big-button {
+    padding: 0.5em 4em;
+    border-radius: 0.5em;
+    color: rgba(255,255,255, 0.8);
+    background-color: var(--light-blue);
+    justify-content: 'center';
+    text-decoration: none;
+    text-transform: none;
+}
+
+Button.big-button:hover {
+    background-color: var(--light-blue);
+}

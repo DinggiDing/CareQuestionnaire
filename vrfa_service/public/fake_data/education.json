@@ -1,0 +1,902 @@
+ {
+    "survey": {
+      "sections": [
+        {
+          "id": 1,
+          "name": "adl",
+          "questions": [
+            {
+              "id": 1,
+              "name": "bathing",
+              "display_question": "How much has your bathing been limited by your health condition?",
+              "answer_type": "ENUM",
+              "current_value": "Limited a little",
+              "answer_choices": [
+                "Not limited",
+                "Limited a little",
+                "Limited a lot"
+              ],
+              "scores": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 2,
+              "name": "dressing",
+              "display_question": "How much has your dressing been limited by your health condition?",
+              "answer_type": "ENUM",
+              "current_value": "Limited a little",
+              "answer_choices": [
+                "Not limited",
+                "Limited a little",
+                "Limited a lot"
+              ],
+              "scores": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 3,
+              "name": "grooming",
+              "display_question": "How much has your grooming been limited by your health condition?",
+              "answer_type": "ENUM",
+              "current_value": "Limited a lot",
+              "answer_choices": [
+                "Not limited",
+                "Limited a little",
+                "Limited a lot"
+              ],
+              "scores": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 4,
+              "name": "feeding",
+              "display_question": "How much has your feeding been limited by your health condition?",
+              "answer_type": "ENUM",
+              "current_value": "Not limited",
+              "answer_choices": [
+                "Not limited",
+                "Limited a little",
+                "Limited a lot"
+              ],
+              "scores": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 5,
+              "name": "walking_inside_home",
+              "display_question": "How much has your walking inside the home been limited by your health condition?",
+              "answer_type": "ENUM",
+              "current_value": "Limited a little",
+              "answer_choices": [
+                "Not limited",
+                "Limited a little",
+                "Limited a lot"
+              ],
+              "scores": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 6,
+              "name": "walking_outside_home",
+              "display_question": "How much has your walking outside the home been limited by your health condition?",
+              "answer_type": "ENUM",
+              "current_value": "Limited a lot",
+              "answer_choices": [
+                "Not limited",
+                "Limited a little",
+                "Limited a lot"
+              ],
+              "scores": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 7,
+              "name": "bladder_bowel_control",
+              "display_question": "How much has your bladder and bowel control been limited by your health condition?",
+              "answer_type": "ENUM",
+              "current_value": "Not limited",
+              "answer_choices": [
+                "Not limited",
+                "Limited a little",
+                "Limited a lot"
+              ],
+              "scores": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "threshold": "<14"
+        },
+        {
+          "id": 2,
+          "name": "iadls",
+          "questions": [
+            {
+              "id": 8,
+              "name": "telephone",
+              "display_question": "How independently can you use the telephone?",
+              "answer_type": "ENUM",
+              "current_value": "Unable to do so",
+              "answer_choices": [
+                "Without help",
+                "With some help",
+                "Unable to do so"
+              ],
+              "scores": [
+                2,
+                1,
+                0
+              ]
+            },
+            {
+              "id": 9,
+              "name": "laundry",
+              "display_question": "How independently can you do your laundry?",
+              "answer_type": "ENUM",
+              "current_value": "With some help",
+              "answer_choices": [
+                "Without help",
+                "With some help",
+                "Unable to do so"
+              ],
+              "scores": [
+                2,
+                1,
+                0
+              ]
+            },
+            {
+              "id": 10,
+              "name": "shopping",
+              "display_question": "How independently can you go shopping?",
+              "answer_type": "ENUM",
+              "current_value": "With some help",
+              "answer_choices": [
+                "Without help",
+                "With some help",
+                "Unable to do so"
+              ],
+              "scores": [
+                2,
+                1,
+                0
+              ]
+            },
+            {
+              "id": 11,
+              "name": "meals",
+              "display_question": "How independently can you prepare meals?",
+              "answer_type": "ENUM",
+              "current_value": "With some help",
+              "answer_choices": [
+                "Without help",
+                "With some help",
+                "Unable to do so"
+              ],
+              "scores": [
+                2,
+                1,
+                0
+              ]
+            },
+            {
+              "id": 12,
+              "name": "housework",
+              "display_question": "How independently can you do housework?",
+              "answer_type": "ENUM",
+              "current_value": "With some help",
+              "answer_choices": [
+                "Without help",
+                "With some help",
+                "Unable to do so"
+              ],
+              "scores": [
+                2,
+                1,
+                0
+              ]
+            },
+            {
+              "id": 13,
+              "name": "medication",
+              "display_question": "How independently can you handle your own medication?",
+              "answer_type": "ENUM",
+              "current_value": "With some help",
+              "answer_choices": [
+                "Without help",
+                "With some help",
+                "Unable to do so"
+              ],
+              "scores": [
+                2,
+                1,
+                0
+              ]
+            },
+            {
+              "id": 14,
+              "name": "fallen",
+              "display_question": "Have you ever fallen (lost your balance, tripped, or dropped to the ground without control)?",
+              "answer_type": "ENUM",
+              "current_value": "No",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": []
+            },
+            {
+              "id": 15,
+              "name": "when_fall",
+              "display_question": "When did you last fall?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "In the last week",
+                "In the last month",
+                "In the last 6 months",
+                "In the last year",
+                "More than 1 year ago"
+              ],
+              "scores": []
+            },
+            {
+              "id": 16,
+              "name": "where_fall",
+              "display_question": "Where did you last fall?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "Home",
+                "Outside the home"
+              ],
+              "scores": []
+            },
+            {
+              "id": 17,
+              "name": "vision",
+              "display_question": "How is your vision?",
+              "answer_type": "ENUM",
+              "current_value": "Fair",
+              "answer_choices": [
+                "Excellent",
+                "Good",
+                "Fair",
+                "Poor"
+              ],
+              "scores": []
+            },
+            {
+              "id": 18,
+              "name": "glasses",
+              "display_question": "Do you wear glasses?",
+              "answer_type": "ENUM",
+              "current_value": "No",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": []
+            },
+            {
+              "id": 19,
+              "name": "hearing",
+              "display_question": "How is your hearing?",
+              "answer_type": "ENUM",
+              "current_value": "Good",
+              "answer_choices": [
+                "Excellent",
+                "Good",
+                "Fair",
+                "Poor"
+              ],
+              "scores": []
+            },
+            {
+              "id": 20,
+              "name": "hearing_aid",
+              "display_question": "Do you use a hearing aid?",
+              "answer_type": "ENUM",
+              "current_value": "No",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": []
+            },
+            {
+              "id": 21,
+              "name": "assistive_devices",
+              "display_question": "Do you use any assistive devices to get around, such as a cane, walker, crutches or wheelchair?",
+              "answer_type": "LIST",
+              "current_value": [
+                "Crutches",
+                "Wheelchair"
+              ],
+              "answer_choices": [
+                "Cane",
+                "Walker",
+                "Crutches",
+                "Wheelchair",
+                "Prosthesis"
+              ],
+              "scores": []
+            }
+          ],
+          "threshold": "<16"
+        },
+        {
+          "id": 3,
+          "name": "social",
+          "questions": [
+            {
+              "id": 22,
+              "name": "help",
+              "display_question": "How often do you have someone to help you with daily chores if you were sick?",
+              "answer_type": "ENUM",
+              "current_value": "A little of the time",
+              "answer_choices": [
+                "All the time",
+                "Most of the time",
+                "Some of the time",
+                "A little of the time",
+                "Not at all"
+              ],
+              "scores": [
+                5,
+                4,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "id": 23,
+              "name": "emotional_support",
+              "display_question": "How often do you have someone to turn to for suggestions about how to deal with a personal problem?",
+              "answer_type": "ENUM",
+              "current_value": "Some of the time",
+              "answer_choices": [
+                "All the time",
+                "Most of the time",
+                "Some of the time",
+                "A little of the time",
+                "Not at all"
+              ],
+              "scores": [
+                5,
+                4,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "id": 24,
+              "name": "enjoyable",
+              "display_question": "How often do you have someone to do something enjoyable with?",
+              "answer_type": "ENUM",
+              "current_value": "A little of the time",
+              "answer_choices": [
+                "All the time",
+                "Most of the time",
+                "Some of the time",
+                "A little of the time",
+                "Not at all"
+              ],
+              "scores": [
+                5,
+                4,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "id": 25,
+              "name": "loved",
+              "display_question": "How often do you have someone to love and make you feel wanted?",
+              "answer_type": "ENUM",
+              "current_value": "A little of the time",
+              "answer_choices": [
+                "All the time",
+                "Most of the time",
+                "Some of the time",
+                "A little of the time",
+                "Not at all"
+              ],
+              "scores": [
+                5,
+                4,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "id": 26,
+              "name": "interfere",
+              "display_question": "During the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities (like visiting friends or relatives)?",
+              "answer_type": "ENUM",
+              "current_value": "Some of the time",
+              "answer_choices": [
+                "All the time",
+                "Most of the time",
+                "Some of the time",
+                "A little of the time",
+                "Not at all"
+              ],
+              "scores": [
+                5,
+                4,
+                3,
+                2,
+                1
+              ]
+            }
+          ],
+          "threshold": "<16"
+        },
+        {
+          "id": 4,
+          "name": "social_activity",
+          "questions": [
+            {
+              "id": 27,
+              "name": "social_activity",
+              "display_question": "Compared to your usual level of social activity, has your social activity during the past 6 months changed because of a change in your physical or emotional condition?",
+              "answer_type": "ENUM",
+              "current_value": "Somewhat less ",
+              "answer_choices": [
+                "Much less",
+                "Somewhat less ",
+                "Same",
+                "Somewhat more",
+                "Much more "
+              ],
+              "scores": [
+                5,
+                4,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "id": 28,
+              "name": "social_comparison",
+              "display_question": "Compared to others your age, are your social activities more or less limited because of your physical health or emotional problems?",
+              "answer_type": "ENUM",
+              "current_value": "Same",
+              "answer_choices": [
+                "Much less",
+                "Somewhat less ",
+                "Same",
+                "Somewhat more",
+                "Much more "
+              ],
+              "scores": [
+                5,
+                4,
+                3,
+                2,
+                1
+              ]
+            }
+          ],
+          "threshold": ">8"
+        },
+        {
+          "id": 5,
+          "name": "weight",
+          "questions": [
+            {
+              "id": 29,
+              "name": "weight_yes_no",
+              "display_question": "In the past 6 months, has your weight changed?",
+              "answer_type": "ENUM",
+              "current_value": "Gained weight ",
+              "answer_choices": [
+                "Lost weight",
+                "No change",
+                "Gained weight ",
+                "I'm not sure"
+              ],
+              "scores": []
+            },
+            {
+              "id": 30,
+              "name": "weight_loss",
+              "display_question": "How much weight have you lost?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "less than 5 pounds",
+                "between 5 and 10 pounds",
+                "between 11 and 20 pounds",
+                "more than 20 pounds"
+              ],
+              "scores": []
+            },
+            {
+              "id": 31,
+              "name": "weight_gain",
+              "display_question": "How much weight have you gained?",
+              "answer_type": "ENUM",
+              "current_value": "between 5 and 10 pounds",
+              "answer_choices": [
+                "less than 5 pounds",
+                "between 5 and 10 pounds",
+                "between 11 and 20 pounds",
+                "more than 20 pounds"
+              ],
+              "scores": []
+            }
+          ],
+          "threshold": "N/A"
+        },
+        {
+          "id": 6,
+          "name": "distress",
+          "questions": [
+            {
+              "id": 32,
+              "name": "satisfication",
+              "display_question": "Are you basically satisfied with your life?",
+              "answer_type": "ENUM",
+              "current_value": "Yes",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": [
+                0,
+                1
+              ]
+            },
+            {
+              "id": 33,
+              "name": "dropped_activities",
+              "display_question": "Have you dropped many of your activities and interests?",
+              "answer_type": "ENUM",
+              "current_value": "No",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": [
+                1,
+                0
+              ]
+            },
+            {
+              "id": 34,
+              "name": "happy",
+              "display_question": "Do you feel happy most of the time?",
+              "answer_type": "ENUM",
+              "current_value": "Yes",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": [
+                0,
+                1
+              ]
+            },
+            {
+              "id": 35,
+              "name": "prefer_staying_home",
+              "display_question": "Do you prefer to stay at home, rather than going out and doing new things?",
+              "answer_type": "ENUM",
+              "current_value": "No",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": [
+                1,
+                0
+              ]
+            }
+          ],
+          "threshold": ">1"
+        },
+        {
+          "id": 7,
+          "name": "medications",
+          "questions": [
+            {
+              "id": 36,
+              "name": "has_medications",
+              "display_question": "Are you taking any prescribed medications?",
+              "answer_type": "ENUM",
+              "current_value": "No",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": []
+            },
+            {
+              "id": 37,
+              "name": "num_medications",
+              "display_question": "Approximately how many different prescribed medications do you take each day?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "One to four",
+                "Five to ten",
+                "More than ten"
+              ],
+              "scores": []
+            },
+            {
+              "id": 38,
+              "name": "supplements",
+              "display_question": "Are you taking any supplements, including herbals and vitamins?",
+              "answer_type": "ENUM",
+              "current_value": "No",
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": []
+            },
+            {
+              "id": 39,
+              "name": "num_supplements",
+              "display_question": "Approximately how many herbs, vitamins and supplements do you take each day?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "One to four",
+                "Five to ten",
+                "More than ten"
+              ],
+              "scores": []
+            }
+          ],
+          "threshold": "N/A"
+        },
+        {
+          "id": 8,
+          "name": "lifestyle",
+          "questions": [
+            {
+              "id": 40,
+              "name": "martial_status",
+              "display_question": "What is your current marital status?",
+              "answer_type": "ENUM",
+              "current_value": "Widowed",
+              "answer_choices": [
+                "Married",
+                "Divorced",
+                "Domestic Partnership",
+                "Separated",
+                "Single",
+                "Widowed"
+              ],
+              "scores": []
+            },
+            {
+              "id": 41,
+              "name": "living_situation",
+              "display_question": "What is your current living situation?",
+              "answer_type": "ENUM",
+              "current_value": "Nursing home",
+              "answer_choices": [
+                "Living alone",
+                "Living with family or partner",
+                "Living with someone else",
+                "Assisted living facility",
+                "Nursing home",
+                "Other"
+              ],
+              "scores": []
+            },
+            {
+              "id": 42,
+              "name": "education",
+              "display_question": "What is your highest level of education?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "Less than high school diploma",
+                "High school diploma",
+                "Some college",
+                "College graduate",
+                "Advanced degree"
+              ],
+              "scores": []
+            },
+            {
+              "id": 43,
+              "name": "smoked_30",
+              "display_question": "In the past 30 days, have you smoked cigarettes (even a single puff) or used other tobacco products?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "Not at all",
+                "At least once",
+                "Every day"
+              ],
+              "scores": []
+            },
+            {
+              "id": 44,
+              "name": "smoke_consider_quitting",
+              "display_question": "Are you willing to consider quittying?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "Yes",
+                "Maybe",
+                "No"
+              ],
+              "scores": []
+            },
+            {
+              "id": 45,
+              "name": "alcohol",
+              "display_question": "How many times in the past year have you had more than 4 drinks in a day if you are a woman, or 5 in a day if you are a man?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "Zero",
+                "One or more"
+              ],
+              "scores": []
+            },
+            {
+              "id": 46,
+              "name": "home_health",
+              "display_question": "Do you have home care services now (such as a visiting nurse or home health aid)?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "Yes",
+                "No"
+              ],
+              "scores": []
+            },
+            {
+              "id": 47,
+              "name": "assessment_taker",
+              "display_question": "Who completed this assessment?",
+              "answer_type": "ENUM",
+              "current_value": null,
+              "answer_choices": [
+                "I did it myself",
+                "I did it with some help",
+                "Someone else did it for me"
+              ],
+              "scores": []
+            }
+          ],
+          "threshold": "N/A"
+        }
+      ]
+    },
+    "current_user_id": "85398676-d045-4655-a6b8-13538c809a50",
+    "current_section_id": 8,
+    "current_question": {
+      "id": 42,
+      "name": "education",
+      "display_question": "What is your highest level of education?",
+      "answer_type": "ENUM",
+      "current_value": null,
+      "answer_choices": [
+        "Less than high school diploma",
+        "High school diploma",
+        "Some college",
+        "College graduate",
+        "Advanced degree"
+      ],
+      "scores": []
+    },
+    "conversation": [
+      "Hello",
+      "Welcome to your health care questionnaire. Are you ready to start with the first question?",
+      "I am ready",
+      "Great! Let's start with the first question. Could you tell me how much your bathing has been limited by your health condition? The answer choices are: not limited, limited a little, or limited a lot. (id: 1)",
+      "limited a little",
+      "I see, thank you for sharing that. Now, could you tell me how much your dressing has been limited by your health condition? (id: 2)",
+      "limited a little",
+      "Alright, I've noted that down. Moving on, how much has your grooming been limited by your health condition? (id: 3)",
+      "limited a lot",
+      "I understand, thank you for letting me know. Now, could you tell me how much your feeding has been limited by your health condition? (id: 4)",
+      "not limited",
+      "Great, I'll note that as not limited. Now, could you tell me how much your walking inside the home has been limited by your health condition? (id: 5)",
+      "limited a little",
+      "I see, thank you for sharing. Now, could you tell me how much your walking outside the home has been limited by your health condition? (id: 6)",
+      "limited a lot",
+      "I understand. Now, could you tell me how much your bladder and bowel control has been limited by your health condition? (id: 7)",
+      "not limited",
+      "That's good to hear. Now, I'd like to know how independently you can use the telephone? (id: 8)",
+      "unable to do so",
+      "I understand. Let's move on to another daily task. How independently can you do your laundry? (id: 9)",
+      "with some help",
+      "I see. And how about shopping? Can you do that independently or do you need some help? (id: 10)",
+      "i sister comes with me",
+      "It's nice that your sister can assist you. So, how independently can you prepare meals? Would you say you can do it without help, with some help, or are you unable to do so? (id: 11)",
+      "with some help",
+      "I see, it's good that you have some assistance. Now, how about housework? Can you do it independently or do you need some help? (id: 12)",
+      "i hire someone",
+      "That's a great way to manage it. Now, how independently can you handle your own medication? Can you do it without help, with some help, or are you unable to do so? (id: 13)",
+      "my daughter organizes my medication",
+      "It sounds like your daughter is a great help. So, would you say you handle your medication with some help? (id: 13)",
+      "yeah",
+      "Great, it's good to have support. Now, have you ever fallen, like losing your balance, tripping, or dropping to the ground without control? (id: 14)",
+      "no",
+      "That's good to hear. Now, how would you describe your vision? Would you say it's excellent, good, fair, or poor? (id: 17)",
+      "fair",
+      "Alright, I've noted that down. Do you wear glasses? (id: 18)",
+      "no",
+      "Alright, I've noted that down. How would you describe your hearing? Is it excellent, good, fair, or poor? (id: 19)",
+      "good",
+      "That's good to hear. Do you use a hearing aid? (id: 20)",
+      "no",
+      "Alright, I've noted that down. Do you use any assistive devices to get around, such as a cane, walker, crutches or wheelchair? (id: 21)",
+      "crutches, wheelchair",
+      "I see, thank you for sharing that. Now, if you were sick and needed help with daily chores, how often do you have someone who could assist you? Would you say all the time, most of the time, some of the time, a little of the time, or not at all? (id: 22)",
+      "a little of the time",
+      "I understand. Now, how often do you have someone to turn to for suggestions about how to deal with a personal problem? Would you say all the time, most of the time, some of the time, a little of the time, or not at all? (id: 23)",
+      "some of the time",
+      "Alright, I've noted that down. Now, how often do you have someone to do something enjoyable with? Would you say all the time, most of the time, some of the time, a little of the time, or not at all? (id: 24)",
+      "a little of the time",
+      "I see. Now, how often do you have someone to love and make you feel wanted? Would you say all the time, most of the time, some of the time, a little of the time, or not at all? (id: 25)",
+      "a little of the time",
+      "I understand. Now, during the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities like visiting friends or relatives? Would you say all the time, most of the time, some of the time, a little of the time, or not at all? (id: 26)",
+      "some of the time",
+      "I see. Now, compared to your usual level of social activity, has your social activity during the past 6 months changed because of a change in your physical or emotional condition? Would you say it's much less, somewhat less, the same, somewhat more, or much more? (id: 27)",
+      "somewhat less",
+      "I understand. Now, compared to others your age, are your social activities more or less limited because of your physical health or emotional problems? Would you say they are much less, somewhat less, the same, somewhat more, or much more? (id: 28)",
+      "same",
+      "Alright, thank you for sharing that. Now, I'd like to ask about your weight. In the past 6 months, has your weight changed? Have you lost weight, gained weight, seen no change, or are you not sure? (id: 29)",
+      "gained weight",
+      "I see. Could you tell me approximately how much weight you have gained? Would you say it's less than 5 pounds, between 5 and 10 pounds, between 11 and 20 pounds, or more than 20 pounds? (id: 31)",
+      "between 5 and 10 pounds",
+      "Thank you for sharing that. Now, I'd like to ask about your overall satisfaction with life. Would you say you are basically satisfied with your life? (id: 32)",
+      "yes",
+      "That's good to hear. Now, have you dropped many of your activities and interests? (id: 33)",
+      "no",
+      "That's great to hear. Now, do you feel happy most of the time? (id: 34)",
+      "yes",
+      "That's wonderful to hear. Now, do you prefer to stay at home, rather than going out and doing new things? (id: 35)",
+      "no",
+      "That's great, it's important to stay active. Now, are you currently taking any prescribed medications? (id: 36)",
+      "no",
+      "That's good to know. Are you taking any supplements, including herbals and vitamins? (id: 38)",
+      "no",
+      "Alright, thank you for sharing that. Could you please tell me about your current marital status? (id: 40)",
+      "widowed",
+      "I'm sorry for your loss. Can you tell me about your current living situation? Are you living alone, with family or partner, with someone else, in an assisted living facility, a nursing home, or something else? (id: 41)",
+      "oh",
+      "I understand that this might be a sensitive topic for you. If you feel comfortable, could you please share your current living situation? It could be living alone, living with family or partner, living with someone else, in an assisted living facility, a nursing home, or something else. (id: 41)",
+      "would you let me do a cooking class sure",
+      "I'm sure a cooking class would be a wonderful experience! But for our records, could you please share your current living situation? Are you living alone, with family or partner, with someone else, in an assisted living facility, a nursing home, or something else? (id: 41)",
+      "nursing home",
+      "Thank you for sharing that with me. Now, could you please tell me about your highest level of education? Did you complete less than high school, finish high school, attend some college, graduate from college, or achieve an advanced degree? (id: 42)"
+    ]
+  }
