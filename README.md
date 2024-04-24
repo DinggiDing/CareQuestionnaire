@@ -1,6 +1,12 @@
 # Supplementary Material 
 # Digital Forms for All: A Holistic Multimodal Large Language Model Agent for Health Data Entry
 
+This page contains documentation for My Care Questionnaire, a system described in our IMWUT 2024.
+
+**Paper title:** Digital Forms for All: A Holistic Multimodal Large Language Model Agent for Health Data Entry. 
+
+**Authors**: Andrea Cuadra, Justine Breuch, Samantha Estrada, David Ihim, Isabelle Hung, Derek Askaryar, Marwan Hassanien, Kristen L. Fessele, and James A. Landay
+
 ## Backend
 The python backend server is in `genie_service/`
 * Prompts are in `/genie_service/functions/autovrfa/prompts`
