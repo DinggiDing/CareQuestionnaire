@@ -1,4 +1,5 @@
-# Supplementary Material: Digital Forms for All: A Holistic Multimodal Large Language Model Agent for Health Data Entry
+# Supplementary Material 
+# Digital Forms for All: A Holistic Multimodal Large Language Model Agent for Health Data Entry
 
 ## Backend
 The python backend server is in `genie_service/`
