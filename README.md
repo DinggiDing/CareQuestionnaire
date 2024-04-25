@@ -1,7 +1,7 @@
 # Supplementary Material 
 # Digital Forms for All: A Holistic Multimodal Large Language Model Agent for Health Data Entry
 
-This page contains documentation for My Care Questionnaire, a system described in our IMWUT 2024.
+This page contains documentation for My Care Questionnaire, a system described in our [IMWUT 2024 paper](https://web.stanford.edu/~apcuad/files/Digital_IMWUT_2024.pdf).
 
 **Paper title:** Digital Forms for All: A Holistic Multimodal Large Language Model Agent for Health Data Entry. 
 
