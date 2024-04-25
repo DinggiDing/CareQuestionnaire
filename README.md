@@ -20,7 +20,7 @@ The frontend Typescript server is in `vrfa_service/`
 * Entry points in `vrfa_service/src/App.tsx`
 * Main components in `vrfa_service/src/pages`
 
-# Developer Setup
+## Developer Setup
 
 1. First, clone repository to computer use command: gh repo clone StanfordHCI/CareQuestionnaire
 
