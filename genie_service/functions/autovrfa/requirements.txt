@@ -1,5 +1,7 @@
-openai
 langchain
+langchain-google-genai
+google-generativeai
 csv
 os
 google-cloud-firestore
+
