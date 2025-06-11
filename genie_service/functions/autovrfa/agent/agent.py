@@ -6,7 +6,7 @@ from autovrfa.prompts.survey_extractor_prompt_template import SurveyExtractorPro
 from autovrfa.autovrfa_utils import agent_needs_more_questions
 from autovrfa.prompts.chat_prompt_template import CustomChatPromptTemplate
 from langchain.cache import InMemoryCache
-from langchain.chat_models import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.schema import BaseMessage
@@ -29,10 +29,11 @@ MAX_QUESTIONS = 5
 class SurveyAgent():
     def __init__(self, db_client: DatabaseClient = None):
         self.db_client = db_client
-        self.llm = ChatOpenAI(temperature=0.0,
-                              openai_api_key='<API_KEY>',
-                              openai_organization='<ORGANIZATION>',
-                              model_name="gpt-4")
+        self.llm = ChatGoogleGenerativeAI(
+            temperature=0.0,
+            google_api_key="<API_KEY>",
+            model="gemini-pro"
+        )
         self.memory = ConversationBufferWindowMemory(k=3,  # Refers to size of conversation history that gets passed in.
                                                      ai_prefix="AI Nurse",
                                                      human_prefix="Patient",

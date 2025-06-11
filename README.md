@@ -45,7 +45,7 @@ The frontend Typescript server is in `vrfa_service/`
 
 10. Run `firebase emulators:start`
 
-11. Replace the API key in agent.py with your API key! It has to be a string not an env variable. Trying to debug this.
+11. Replace the API key in `agent.py` with your **Gemini API key**! It has to be a string, not an env variable. Trying to debug this.
 
 12. Add a .env file under the autovrfa directory and add this to the file: 
 
